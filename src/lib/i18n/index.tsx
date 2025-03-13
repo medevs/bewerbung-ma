@@ -6,6 +6,11 @@ import React, {
   ReactNode,
 } from "react";
 
+// Import all translations
+import en from "./translations/en";
+import de from "./translations/de";
+import arMa from "./translations/ar-ma";
+
 // Define supported languages
 export type Language = "en" | "de" | "ar-ma";
 
@@ -16,24 +21,19 @@ interface LanguageContextType {
   t: (key: string, params?: Record<string, string>) => string;
 }
 
-// Create the context with default values
-const LanguageContext = createContext<LanguageContextType>({
-  language: "en",
-  setLanguage: () => {},
-  t: (key) => key,
-});
-
-// Import all translations
-import en from "./translations/en";
-import de from "./translations/de";
-import arMa from "./translations/ar-ma";
-
 // Create a translations object
 const translations = {
   en,
   de,
   "ar-ma": arMa,
 };
+
+// Create the context with default values
+const LanguageContext = createContext<LanguageContextType>({
+  language: "en",
+  setLanguage: () => {},
+  t: (key) => key,
+});
 
 // Create a provider component
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {

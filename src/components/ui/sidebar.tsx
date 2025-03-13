@@ -9,6 +9,7 @@ import {
   MessageSquare,
   Users,
   BookOpen,
+  HelpCircle,
 } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./button";
@@ -116,6 +117,13 @@ export function Sidebar() {
             >
               <BookOpen className="w-4 h-4" />
               {t("language.learning")}
+            </Link>
+            <Link
+              to="/support"
+              className="flex items-center gap-2 p-2 hover:bg-muted rounded-md text-foreground"
+            >
+              <HelpCircle className="w-4 h-4" />
+              {t("support.title", "Support")}
             </Link>
             <Link
               to="/settings"

@@ -65,8 +65,15 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <div className="bg-white dark:bg-gray-900 py-24 sm:py-32" id="features">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div
+      className="bg-white dark:bg-gray-900 py-24 sm:py-32 relative overflow-hidden"
+      id="features"
+    >
+      <div
+        className="absolute inset-0 bg-grid-slate-100 dark:bg-grid-slate-700/20 [mask-image:linear-gradient(0deg,white,transparent)] dark:[mask-image:linear-gradient(0deg,#0f172a,transparent)]"
+        style={{ backgroundSize: "40px 40px" }}
+      ></div>
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             {t(
@@ -86,11 +93,11 @@ export default function FeaturesSection() {
             {features.map((feature) => (
               <div
                 key={feature.name}
-                className="flex flex-col items-center text-center bg-background dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                className="flex flex-col items-center text-center bg-background dark:bg-gray-800 p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 hover:translate-y-[-4px] border border-gray-100 dark:border-gray-700"
               >
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg bg-primary">
+                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 dark:bg-primary/20 ring-4 ring-primary/30 dark:ring-primary/10">
                   <feature.icon
-                    className="h-8 w-8 text-primary-foreground"
+                    className="h-8 w-8 text-primary dark:text-primary"
                     aria-hidden="true"
                   />
                 </div>

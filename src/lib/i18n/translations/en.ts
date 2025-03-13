@@ -502,6 +502,88 @@ const en = {
     account: "Account",
     deleteAccount: "Delete Account",
   },
+  support: {
+    title: "Support Center",
+    contactUs: "Contact Us",
+    getInTouch: "Get in Touch",
+    getInTouchDesc:
+      "Have a question or need help? Fill out the form below and we'll get back to you as soon as possible.",
+    featureRequest: "Feature Request",
+    suggestFeature: "Suggest a Feature",
+    suggestFeatureDesc:
+      "Have an idea for a new feature or improvement? We'd love to hear it!",
+    name: "Name",
+    namePlaceholder: "Your full name",
+    email: "Email",
+    emailPlaceholder: "Your email address",
+    subject: "Subject",
+    subjectPlaceholder: "Brief description of your request",
+    message: "Message",
+    messagePlaceholder: "Please provide details about your request",
+    type: "Request Type",
+    selectType: "Select request type",
+    question: "Question",
+    issue: "Technical Issue",
+    feedback: "Feedback",
+    other: "Other",
+    priority: "Priority",
+    selectPriority: "Select priority",
+    low: "Low",
+    medium: "Medium",
+    high: "High",
+    submit: "Submit Request",
+    submitting: "Submitting...",
+    thankYou: "Thank You!",
+    ticketSubmitted: "Ticket Submitted",
+    ticketSubmittedDesc: "We've received your request and will respond shortly",
+    validationError: "Validation Error",
+    fillAllFields: "Please fill all required fields",
+    error: "Error",
+    errorSubmitting:
+      "There was an error submitting your request. Please try again.",
+    featureTitle: "Feature Title",
+    featureTitlePlaceholder: "Brief title for your feature idea",
+    featureDescription: "Feature Description",
+    featureDescriptionPlaceholder:
+      "Please describe your feature idea in detail. What problem would it solve? Who would benefit from it?",
+    submitFeature: "Submit Feature Request",
+    featureSubmittedDesc:
+      "We've received your feature suggestion and will review it.",
+    note: "Note",
+    featureRequestNote:
+      "We review all feature requests but cannot guarantee implementation. Popular requests are prioritized.",
+    popularRequests: "Popular Feature Requests",
+    multilingualCV: "Multilingual CV Templates",
+    aiInterviewCoach: "AI Interview Coach",
+    mobileApp: "Mobile App",
+    documentTranslation: "Document Translation",
+    employerDashboard: "Employer Dashboard",
+    cantFindAnswer: "Can't find an answer to your question?",
+    contactUsForMore: "Contact our support team for personalized assistance.",
+    contactSupport: "Contact Support",
+    faq: {
+      title: "Frequently Asked Questions",
+      description:
+        "Find answers to common questions about our platform and services.",
+      resumeQuestion: "How do I create a German-style resume?",
+      resumeAnswer:
+        "To create a German-style resume, use our Resume Builder and select the 'German' template. Make sure to include a professional photo, your date and place of birth, and organize your experience in reverse chronological order. Our templates are specifically designed to meet German standards.",
+      letterQuestion:
+        "What should I include in my cover letter for an Ausbildung?",
+      letterAnswer:
+        "For an Ausbildung application, your cover letter should include: why you're interested in this specific profession, why you chose this company, your relevant skills and experiences, your German language level, and your visa situation if applicable. Our AI assistant can help you generate a tailored letter.",
+      visaQuestion: "Do I need a visa for an Ausbildung in Germany?",
+      visaAnswer:
+        "Yes, if you're from outside the EU, you'll need an Ausbildung visa (educational visa). You'll need an acceptance letter from a German company, proof of sufficient funds, health insurance, and adequate German language skills (usually at least B1 level). Check our Visa Guide section for detailed information.",
+      languageQuestion:
+        "What German language level do I need for an Ausbildung?",
+      languageAnswer:
+        "Most Ausbildung positions require at least B1 level German, as you'll need to understand instructions and communicate with colleagues. Some technical fields might require B2. Our Language Learning section provides resources to help you improve your German skills.",
+      exportQuestion: "How can I export my resume or cover letter?",
+      exportAnswer:
+        "You can export your documents in multiple formats. In the Resume or Letter Builder, click the 'Export' button in the top right corner. You can choose PDF (recommended for applications), Word (.docx), or plain text formats.",
+    },
+  },
 };
 
 export default en;

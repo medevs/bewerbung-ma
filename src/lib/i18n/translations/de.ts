@@ -503,6 +503,91 @@ const de = {
     account: "Konto",
     deleteAccount: "Konto löschen",
   },
+  support: {
+    title: "Support-Center",
+    contactUs: "Kontaktiere uns",
+    getInTouch: "Kontakt aufnehmen",
+    getInTouchDesc:
+      "Hast du eine Frage oder brauchst du Hilfe? Fülle das Formular aus und wir melden uns so schnell wie möglich bei dir.",
+    featureRequest: "Feature-Vorschlag",
+    suggestFeature: "Feature vorschlagen",
+    suggestFeatureDesc:
+      "Hast du eine Idee für ein neues Feature oder eine Verbesserung? Wir würden sie gerne hören!",
+    name: "Name",
+    namePlaceholder: "Dein vollständiger Name",
+    email: "E-Mail",
+    emailPlaceholder: "Deine E-Mail-Adresse",
+    subject: "Betreff",
+    subjectPlaceholder: "Kurze Beschreibung deiner Anfrage",
+    message: "Nachricht",
+    messagePlaceholder: "Bitte gib Details zu deiner Anfrage an",
+    type: "Anfrage-Typ",
+    selectType: "Anfrage-Typ auswählen",
+    question: "Frage",
+    issue: "Technisches Problem",
+    feedback: "Feedback",
+    other: "Sonstiges",
+    priority: "Priorität",
+    selectPriority: "Priorität auswählen",
+    low: "Niedrig",
+    medium: "Mittel",
+    high: "Hoch",
+    submit: "Anfrage absenden",
+    submitting: "Wird gesendet...",
+    thankYou: "Vielen Dank!",
+    ticketSubmitted: "Ticket eingereicht",
+    ticketSubmittedDesc:
+      "Wir haben deine Anfrage erhalten und werden uns in Kürze bei dir melden",
+    validationError: "Validierungsfehler",
+    fillAllFields: "Bitte fülle alle erforderlichen Felder aus",
+    error: "Fehler",
+    errorSubmitting:
+      "Beim Absenden deiner Anfrage ist ein Fehler aufgetreten. Bitte versuche es erneut.",
+    featureTitle: "Feature-Titel",
+    featureTitlePlaceholder: "Kurzer Titel für deine Feature-Idee",
+    featureDescription: "Feature-Beschreibung",
+    featureDescriptionPlaceholder:
+      "Bitte beschreibe deine Feature-Idee im Detail. Welches Problem würde es lösen? Wer würde davon profitieren?",
+    submitFeature: "Feature-Vorschlag einreichen",
+    featureSubmittedDesc:
+      "Wir haben deinen Feature-Vorschlag erhalten und werden ihn prüfen.",
+    note: "Hinweis",
+    featureRequestNote:
+      "Wir prüfen alle Feature-Anfragen, können aber keine Umsetzung garantieren. Beliebte Anfragen werden priorisiert.",
+    popularRequests: "Beliebte Feature-Anfragen",
+    multilingualCV: "Mehrsprachige Lebenslauf-Vorlagen",
+    aiInterviewCoach: "KI-Interviewcoach",
+    mobileApp: "Mobile App",
+    documentTranslation: "Dokumentenübersetzung",
+    employerDashboard: "Arbeitgeber-Dashboard",
+    cantFindAnswer: "Keine Antwort auf deine Frage gefunden?",
+    contactUsForMore: "Kontaktiere unser Support-Team für persönliche Hilfe.",
+    contactSupport: "Support kontaktieren",
+    faq: {
+      title: "Häufig gestellte Fragen",
+      description:
+        "Finde Antworten auf häufig gestellte Fragen zu unserer Plattform und unseren Diensten.",
+      resumeQuestion: "Wie erstelle ich einen deutschen Lebenslauf?",
+      resumeAnswer:
+        "Um einen deutschen Lebenslauf zu erstellen, verwende unseren Lebenslauf-Generator und wähle die 'Deutsche' Vorlage. Achte darauf, ein professionelles Foto, dein Geburtsdatum und -ort einzufügen und deine Erfahrungen in umgekehrter chronologischer Reihenfolge zu organisieren. Unsere Vorlagen sind speziell auf deutsche Standards ausgerichtet.",
+      letterQuestion:
+        "Was sollte ich in meinem Anschreiben für eine Ausbildung erwähnen?",
+      letterAnswer:
+        "Für eine Ausbildungsbewerbung sollte dein Anschreiben Folgendes enthalten: warum du dich für diesen speziellen Beruf interessierst, warum du dieses Unternehmen gewählt hast, deine relevanten Fähigkeiten und Erfahrungen, dein Deutschniveau und gegebenenfalls deine Visasituation. Unser KI-Assistent kann dir helfen, ein maßgeschneidertes Anschreiben zu erstellen.",
+      visaQuestion:
+        "Benötige ich ein Visum für eine Ausbildung in Deutschland?",
+      visaAnswer:
+        "Ja, wenn du aus einem Nicht-EU-Land kommst, benötigst du ein Ausbildungsvisum (Bildungsvisum). Du benötigst eine Zusage von einem deutschen Unternehmen, Nachweis über ausreichende finanzielle Mittel, Krankenversicherung und angemessene Deutschkenntnisse (in der Regel mindestens B1-Niveau). Weitere Informationen findest du in unserem Visum-Guide.",
+      languageQuestion:
+        "Welches Deutschniveau benötige ich für eine Ausbildung?",
+      languageAnswer:
+        "Die meisten Ausbildungsplätze erfordern mindestens Deutschkenntnisse auf B1-Niveau, da du Anweisungen verstehen und mit Kollegen kommunizieren musst. Einige technische Bereiche könnten B2 erfordern. Unser Bereich zum Deutschlernen bietet Ressourcen, um deine Deutschkenntnisse zu verbessern.",
+      exportQuestion:
+        "Wie kann ich meinen Lebenslauf oder mein Anschreiben exportieren?",
+      exportAnswer:
+        "Du kannst deine Dokumente in verschiedenen Formaten exportieren. Klicke im Lebenslauf- oder Anschreiben-Generator auf die Schaltfläche 'Exportieren' in der oberen rechten Ecke. Du kannst zwischen PDF (empfohlen für Bewerbungen), Word (.docx) oder Nur-Text-Formaten wählen.",
+    },
+  },
 };
 
 export default de;

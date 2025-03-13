@@ -18,6 +18,7 @@ import JobApplicationTracker from "./components/jobs/JobApplicationTracker";
 import VisaGuide from "./components/visa/VisaGuide";
 import GermanCultureGuide from "./components/integration/GermanCultureGuide";
 import LanguageLearningTools from "./components/language/LanguageLearningTools";
+import SupportPage from "./components/support/SupportPage";
 import routes from "tempo-routes";
 
 const ResumeBuilder = lazy(() => import("./components/resume/ResumeBuilder"));
@@ -244,6 +245,14 @@ function AppContent() {
                 <LanguageLearningTools />
               </DashboardLayout>
             </PrivateRoute>
+          }
+        />
+        <Route
+          path="/support"
+          element={
+            <DashboardLayout>
+              <SupportPage />
+            </DashboardLayout>
           }
         />
       </Routes>
